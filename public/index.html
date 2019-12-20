@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="utf-8" />
+	  <title>TextRedactor.net</title>
+	  <link rel="stylesheet" href="css/normalize.css" />
+	  <link rel="stylesheet" href="css/style.css" />
+	  <link rel="stylesheet" href="font_awesome/css/all.css" />
+	  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div id="modal_window_container" class="none">
+			<div id="modal_window">
+				<div id="content_in_modal"></div>
+				<button id="close_modal" class="button_in_modal">Х</button>
+				<button id="insert_modal" class="button_in_modal"></button>
+			</div>
+		</div>
+		<section id="_text_redactor">
+			<div id="top__bar">		
+				<div class="undo_container no_active" title="Шаг назад">
+					<button id="undo_bttn" disabled class="icon"><i class="fas fa-undo-alt"></i></button>
+				</div>
+				<div class="do_container no_active" title="Шаг вперед">
+					<button id="do_bttn" disabled class="icon"><i class="fas fa-undo-alt"></i></button>
+				</div>
+				<div class="bold_container" title="Добавить/убрать жирность текста">
+					<button id="bold_bttn" class="icon"><i class="fas fa-bold"></i></button>
+				</div>
+				<div class="italic_container" title="Добавить курсивность">
+					<button id="italick_bttn" class="icon"><i class="fas fa-italic"></i></button>
+				</div>
+				<div class="tint_container" title="Изменить цвет текста">
+					<button id="tint_bttn" class="icon"><i class="fas fa-tint"></i></button>
+					<input type="color" class="tint_value" value="#04c981">
+				</div>
+				<div class="feel_container" title="Добавить/убрать заливку фона текста">
+					<button id="feel_bttn" class="icon"><i class="fas fa-fill-drip"></i></button>
+					<input type="color" class="feel_value" value="#04c981">
+				</div>
+				<div class="video_container" title="Прикрепить видео">
+					<button id="video_bttn" class="icon"><i class="fab fa-youtube"></i></button>
+				</div>
+				<div class="lorem_container" title="Вставить Lorem ipsum">
+					<button id="lorem_bttn" class="icon">lorem</button>
+				</div>
+				<div class="settings_container" title="Открыть настройки">
+					<button id="settings_bttn" class="icon"><i class="fas fa-cog"></i></button>
+				</div>
+			</div>
+			<div id="text_place">
+				<div autofocus="autofocus" contenteditable="true" id="enter_text" class="enter_text"></div>
+				<button id="copy"><i class="far fa-copy"></i></button>
+			</div>
+		</section>
+	  <script src="js/bundle.js"></script>
+	</body>
+</html>

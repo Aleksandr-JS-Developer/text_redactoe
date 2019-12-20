@@ -1,0 +1,1 @@
+export const local_get = key => JSON.parse( window.localStorage.getItem( key ) );

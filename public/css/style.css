@@ -1,0 +1,207 @@
+*{ margin: 0px; padding: 0px; outline: 0; font-family: monaco }
+button:hover {
+  cursor: pointer;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+#top__bar > * > * > * {user-select: none;}
+#top__bar > * > * {user-select: none;}
+#top__bar > *  {user-select: none;}
+.icon {
+  padding: 5px;
+  display: inline-block;
+  border: 0px;
+  background-color: #04c981;
+  outline: 1px;
+}
+.select {
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.button_in_modal {
+  text-align: center;
+  color: white;
+  border: 0px;
+  font-size: 90%;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
+#close_modal {
+  right: 0px;
+  top: 0px;
+  width: 8%;
+  border-radius: 4%;
+}
+#insert_modal {
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+}
+#content_in_modal {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 5%;
+  height: 90%;
+  color: white;
+}
+#content_in_modal > * > * > * {color: white;}
+#content_in_modal > * > * {color: white;}
+#content_in_modal > * {color: white;}
+#content_in_modal > * > input {
+  width: 80%;
+  height: 10%;
+  background-color: rgba( 0,0,0,0.1 );
+  border: 0px;
+  padding: 2%;
+}
+#content_in_modal > * > button {
+  margin-top: 5%;
+  width: 100%;
+  font-size: 100%;
+  position: absolute;
+  padding: 1%;
+  background-color: rgba(255, 0, 0, 0.8);
+}
+#content_in_modal > * > input::-webkit-input-placeholder {color:#fff;}
+#content_in_modal > * > input::-moz-placeholder          {color:#fff;}
+#content_in_modal > * > input:-moz-placeholder           {color:#fff;}
+#content_in_modal > * > input:-ms-input-placeholder      {color:#fff;}
+#content_in_modal > * > span {
+  width: 100%;
+  font-size: 100%;
+}
+#modal_window {
+  padding: 1%;
+  position: absolute;
+  z-index: 9999;
+  width: 20%;
+  height: 50%;
+  background-color: #04c981;
+  left: 40%;
+  top: 10%;
+  box-shadow: 0px 0px 18px 1px rgba( 0, 0, 0, 0.56 );
+}
+#modal_window_container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba( 255, 255, 255, 0.3 );
+}
+.low_opacity {
+  opacity: 0.3;
+}
+.none {
+  display: none;
+}
+.italic_container {
+  padding-right: 5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  /*width: 20%;*/
+  display: inline-block;
+}
+.bold_container {
+  padding-right: 5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.tint_container {
+  padding-right: 5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.tint_container > input {
+  background-color: transparent;
+  border: 0px;
+  width: 21px;
+  box-sizing: border-box;
+}
+.feel_container {
+  padding-right: 5px;
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.feel_container > input {
+  background-color: transparent;
+  border: 0px;
+  width: 21px;
+  box-sizing: border-box;
+}
+.undo_container {
+  display: inline-block;
+}
+.do_container {
+  transform: scale(-1, 1);
+  padding-right: 5px;
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.no_active {
+  opacity: 0.5;
+}
+iframe {
+  margin-left: 25%;
+  width: 50%;
+  height: 9%;
+}
+.video_container {
+      padding-right: 10px;
+      border-right: 1px solid rgba(255, 255, 255, 0.7);
+  display: inline-block;
+}
+.lorem_container {
+  display: inline-block;
+}
+.settings_container {
+  display: inline-block;
+  float: right;
+}
+#top__bar {
+  padding: 2%;
+  width: 96%;
+  background-color: #04c981;
+}
+#top__bar > * > * > * > * {color: white;}
+#top__bar > * > * > * {color: white;}
+#top__bar > * > * {color: white;}
+#top__bar > * {color: white;}
+#_text_redactor {
+  width: 98%;
+  margin-left: 1%;
+  height: 100%;
+  font-size: 110%;
+}
+#text_place > .enter_text {
+  padding: 2.5%;
+  border: 0px;
+  width: 95%;
+  resize: none;
+}
+#text_place {
+  height: 100%;
+  border: 1px solid #04c981;
+}
+#copy {
+  padding: 10px;
+  background-color: transparent;
+  border: 0px;
+  width: 100%;
+  height: 9%;
+  outline: 0;
+}
+#copy:hover {
+  cursor: pointer
+}
+select {
+  display: block;
+  width: auto;
+  background-color: #04c981;
+  border: 0px;
+}
+select > option {
+  border: 0px;
+  background-color: #04c981;
+}

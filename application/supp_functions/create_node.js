@@ -1,0 +1,1 @@
+export const create_node = tag => document.createElement( tag );

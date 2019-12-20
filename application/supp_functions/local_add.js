@@ -1,0 +1,1 @@
+export const local_add = ( key, item )=>{window.localStorage.setItem( key, JSON.stringify( item ) );}
