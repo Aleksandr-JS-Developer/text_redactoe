@@ -1,4 +1,4 @@
-# text_editor
+# Text Editor
 
 # for edit code: "npm run cli"
 
