@@ -1,4 +1,5 @@
 # text_editor
 
-for edit code:
-# npm run cli
+# for edit code: "npm run cli"
+
+# license: Open Source.
