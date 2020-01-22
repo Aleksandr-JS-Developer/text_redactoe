@@ -1,14 +1,14 @@
 {
-  "name": "course_work",
+  "name": "TextEditor",
   "version": "1.1.0",
-  "description": "course work for JS Prof 2019",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --colors",
     "cli": "webpack ./application/index.js --output-path ./public/js --output-filename bundle.js --env development --mode development --color --watch",
-    "prod": "webpack ./application/index.js --output-path ./public/js --output-filename bundle.js --env production --mode production --color --watch"
+    "build": "webpack ./application/index.js --output-path ./public/js --output-filename bundle.js --env production --mode production --color --watch"
   },
-  "author": "Alexandr Romantsov",
+  "author": "Script",
   "license": "ISC",
   "jest": {
     "transform": {
